@@ -44,6 +44,7 @@ section {
   height: calc(100% - 56px); }
 
 .main {
+  position: relative;
   height: 200px; }
   .main .row {
     height: 100px;
@@ -70,6 +71,7 @@ section {
       line-height: 24px; }
 
 .keys {
+  position: relative;
   height: calc(100% - 200px);
   background-color: slategray;
   color: white;

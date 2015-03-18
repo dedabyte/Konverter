@@ -70,6 +70,7 @@ section {
 }
 
 .main {
+  position: relative;
   height: $mainHeight;
 
   .row {
@@ -105,6 +106,7 @@ section {
 }
 
 .keys {
+  position: relative;
   height: $keysHeight;
   background-color: slategray;
   color: white;
