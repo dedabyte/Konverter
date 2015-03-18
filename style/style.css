@@ -1,0 +1,87 @@
+@font-face {
+  font-family: fontRegular;
+  src: url(RobotoCondensed-Regular.ttf); }
+@font-face {
+  font-family: fontBold;
+  src: url(RobotoCondensed-Bold.ttf); }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%;
+  font-family: fontRegular, sans-serif;
+  font-size: 13px;
+  color: #666;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+b {
+  font-family: fontBold; }
+
+.app {
+  position: relative;
+  height: 100%; }
+
+header {
+  height: 56px;
+  line-height: 56px;
+  color: white;
+  background-color: black;
+  padding: 0 16px; }
+  header .title {
+    font-size: 26px;
+    float: left; }
+  header .action {
+    font-size: 16px;
+    float: right; }
+
+section {
+  position: relative;
+  height: calc(100% - 56px); }
+
+.main {
+  height: 200px; }
+  .main .row {
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid slategray;
+    font-size: 28px;
+    text-align: center;
+    margin: 0 16px; }
+    .main .row.to {
+      font-family: fontBold;
+      font-size: 32px;
+      border: none; }
+  .main .ratio {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: slategray;
+    top: 88px; }
+    .main .ratio .ratio-in {
+      display: inline-block;
+      background-color: white;
+      padding: 0 16px;
+      height: 24px;
+      line-height: 24px; }
+
+.keys {
+  height: calc(100% - 200px);
+  background-color: slategray;
+  color: white;
+  font-size: 26px;
+  text-align: center; }
+  .keys table {
+    width: 100%;
+    height: 100%;
+    border-spacing: 0; }
+    .keys table td {
+      width: 33.333333%; }
+      .keys table td.active {
+        background-color: rgba(255, 255, 255, 0.2); }
+
+/*# sourceMappingURL=style.css.map */
