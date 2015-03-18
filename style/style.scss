@@ -2,12 +2,12 @@ $edgePadding: 16px;
 
 $headerHeight: 56px;
 
-$sectionHeight: calc(100% - 56px);
+$sectionHeight: -webkit-calc(100% - 56px);
 
 $mainHeight: 200px;
 $mainRowHeight: 100px;
 
-$keysHeight: calc(100% - 200px);
+$keysHeight: -webkit-calc(100% - 200px);
 
 
 

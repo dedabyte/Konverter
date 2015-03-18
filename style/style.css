@@ -41,7 +41,7 @@ header {
 
 section {
   position: relative;
-  height: calc(100% - 56px); }
+  height: -webkit-calc(100% - 56px); }
 
 .main {
   position: relative;
@@ -72,7 +72,7 @@ section {
 
 .keys {
   position: relative;
-  height: calc(100% - 200px);
+  height: -webkit-calc(100% - 200px);
   background-color: slategray;
   color: white;
   font-size: 26px;
